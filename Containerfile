@@ -1,5 +1,8 @@
 FROM docker.io/debian:bookworm-slim
 
+LABEL  org.opencontainers.image.authors="Daniele Tricoli <eriol@mornie.org>" \
+       org.opencontainers.image.source="https://github.com/eriol/oci-mitra"
+
 RUN apt-get update && apt-get install -y ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 

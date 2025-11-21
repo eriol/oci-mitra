@@ -1,4 +1,4 @@
-FROM docker.io/debian:bookworm-slim
+FROM docker.io/debian:trixie-slim
 
 LABEL org.opencontainers.image.authors="Daniele Tricoli <eriol@mornie.org>" \
       org.opencontainers.image.source="https://github.com/eriol/oci-mitra"
